@@ -10,6 +10,7 @@ const StyledHeader = styled.header`
 const Logo = styled.a`
   font-size: 2rem;
   font-weight: 700;
+  transition: 0.5s;
   &:hover {
     background-color: #fff;
     color: #000;
@@ -35,6 +36,7 @@ const Nav = styled.nav`
 const NavItem = styled.a`
   font-size: 1.8rem;
   padding: 0 0.5rem;
+  transition: 0.5s;
   &:hover {
     background-color: #fff;
     color: #000;
