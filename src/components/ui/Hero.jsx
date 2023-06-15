@@ -2,6 +2,7 @@ import styled from "styled-components";
 const StyledHero = styled.section`
   background: url("/src/images/hero.jpg") no-repeat;
   background-size: cover;
+  padding: 10rem 0;
   height: 100vh;
 `;
 const Paragraph = styled.div`
@@ -11,15 +12,20 @@ const Paragraph = styled.div`
   padding-top: 10rem;
   margin-left: 20rem;
 `;
-const H2 = styled.h2`
-  color: #b8b4b4;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: 500;
+const H1 = styled.h1`
+  color: #000;
+  font-size: 6rem;
 `;
+
+const H2 = styled.h2`
+  color: whitesmoke;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+`;
+
 const P = styled.p`
   color: whitesmoke;
-  font-size: 6.4rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 5rem;
 `;
@@ -43,7 +49,8 @@ function Hero() {
   return (
     <StyledHero>
       <Paragraph>
-        <H2>Portfolio</H2>
+        <H1>Hi, I'am Lukas</H1>
+        <H2>Frontend Developer</H2>
         <P>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius
           hic velit excepturi amet praesentium!
