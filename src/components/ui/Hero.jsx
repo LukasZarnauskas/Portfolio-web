@@ -1,5 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import styled from "styled-components";
 const StyledHero = styled.section`
+  display: flex;
   background: url("/src/images/hero.jpg") no-repeat;
   background-size: cover;
   padding: 10rem 0;
@@ -8,12 +10,12 @@ const StyledHero = styled.section`
 const Paragraph = styled.div`
   display: flex;
   flex-direction: column;
-  width: 90rem;
+  width: 60rem;
   padding-top: 10rem;
   margin-left: 20rem;
 `;
 const H1 = styled.h1`
-  color: #000;
+  color: #39b54a;
   font-size: 6rem;
 `;
 
@@ -44,6 +46,19 @@ const Button = styled.button`
     transition: 0.5s;
   }
 `;
+const Img = styled.img`
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  margin-right: 20rem;
+  margin-left: 5rem;
+  filter: grayscale(80%);
+`;
+
+const Span = styled.span`
+  color: #39b54a;
+  text-decoration: underline;
+`;
 
 function Hero() {
   return (
@@ -52,11 +67,13 @@ function Hero() {
         <H1>Hi, I'am Lukas</H1>
         <H2>Frontend Developer</H2>
         <P>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius
-          hic velit excepturi amet praesentium!
+          I'm new Frontend Developer based in Kaunas, Lithuania. I looking for a
+          challanges and opportunities to grow as a developer. If you looking
+          for a Frontend Developer, <Span>let's work together.</Span>
         </P>
-        <Button> MORE ABOUT MY</Button>
+        <Button> CONTACT</Button>
       </Paragraph>
+      <Img src="./src/images/1667566343397.jpg" alt="Lukas" />
     </StyledHero>
   );
 }
