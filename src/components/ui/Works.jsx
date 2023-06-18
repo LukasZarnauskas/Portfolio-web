@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styled from "styled-components";
 
 const StyledWorks = styled.section`
@@ -21,7 +22,6 @@ const Div = styled.div`
   color: whitesmoke;
   margin-top: 5rem;
   padding: 1rem;
-  width: 40rem;
   transition: 0.3s;
   :hover {
     background-color: #484848;
@@ -29,6 +29,8 @@ const Div = styled.div`
   }
 `;
 const Container = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 `;
 const Img = styled.img`
@@ -120,6 +122,31 @@ function Works() {
               Project github repository:
               <A
                 href="https://github.com/LukasZarnauskas/Web-atsiskaitymas.git"
+                target="_blank"
+              >
+                Github
+              </A>
+            </PSite>
+            <PSite>
+              You can see it in my website:
+              <A
+                href="https://web-of-lukas-zarnauskas.netlify.app/"
+                target="_blank"
+              >
+                Web
+              </A>
+            </PSite>
+          </div>
+        </Div>
+        <Div>
+          <H3>Portfolio page</H3>
+          <P>My portfolio page made with react and styled components.</P>
+          <Img src="/src/images/shops-web.png" alt="Shops-web" />
+          <div>
+            <PSite>
+              Project github repository:
+              <A
+                href="https://github.com/LukasZarnauskas/Portfolio-web.git"
                 target="_blank"
               >
                 Github
