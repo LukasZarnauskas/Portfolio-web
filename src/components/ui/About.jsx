@@ -15,6 +15,7 @@ const P = styled.p`
   margin-top: 5rem;
   color: whitesmoke;
   text-align: center;
+  font-weight: 700;
 `;
 const Button = styled.button`
   background-color: initial;
@@ -66,6 +67,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   margin-top: 0.5rem;
   font-size: 2rem;
+  font-weight: 700;
 `;
 const LiEd = styled.li`
   display: flex;
@@ -185,7 +187,8 @@ function About() {
         </DivW>
       </DivHist>
       <DivWorks>
-        <H3>You can see my works here:</H3> <Button>Works</Button>
+        <H3>You can see my works here:</H3>
+        <Button>WORKS</Button>
       </DivWorks>
     </StyledAbout>
   );
