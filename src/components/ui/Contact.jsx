@@ -2,19 +2,21 @@ import styled from "styled-components";
 
 const StyledCotact = styled.section`
   background-color: #39b54a;
-  height: 100vh;
   padding: 10rem 20rem;
 `;
 const Div = styled.div`
+  display: flex;
+  justify-content: space-between;
   color: white;
-  margin-top: 5rem;
 `;
 const H2 = styled.h2`
   font-size: 5rem;
   text-align: center;
 `;
 const H3 = styled.h3`
+  margin-top: 5rem;
   font-size: 3rem;
+  color: white;
 `;
 const H4 = styled.h4`
   font-size: 2rem;
@@ -29,9 +31,9 @@ const A = styled.a`
 `;
 const P = styled.p`
   transition: 0.3s;
+
   :hover {
     color: black;
-    width: 3rem;
   }
 `;
 
@@ -39,10 +41,8 @@ function Contact() {
   return (
     <StyledCotact>
       <H2>Contact</H2>
-
+      <H3>Contact info</H3>
       <Div>
-        <H3>Contact info</H3>
-
         <div>
           <H4>Call My At</H4>
           <P>+37060802922</P>
