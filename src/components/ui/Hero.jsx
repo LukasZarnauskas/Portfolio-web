@@ -2,7 +2,7 @@
 import styled from "styled-components";
 const StyledHero = styled.section`
   display: flex;
-  background: url("/src/images/hero.jpg") no-repeat;
+  background: url("./public/images/hero.jpg") no-repeat;
   background-size: cover;
   padding: 10rem 20rem;
   min-height: 100vh;
@@ -81,7 +81,7 @@ function Hero() {
         </P>
         <Button href="#contact"> CONTACT</Button>
       </Paragraph>
-      <Img src="/src/images/1667566343397.jpg" alt="Lukas" />
+      <Img src="./src/images/1667566343397.jpg" alt="Lukas" />
     </StyledHero>
   );
 }

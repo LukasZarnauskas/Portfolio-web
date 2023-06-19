@@ -120,19 +120,19 @@ function About() {
           <H3>My skills</H3>
           <Ul>
             <Li>
-              <Img src="/src/images/html.png" alt="html" />
+              <Img src="/public/images/html.png" alt="html" />
               HTML
             </Li>
             <Li>
-              <Img src="/src/images/css-3.png" alt="html" />
+              <Img src="/public/images/css-3.png" alt="html" />
               CSS
             </Li>
             <Li>
-              <Img src="/src/images/java-script.png" alt="html" />
+              <Img src="/public/images/java-script.png" alt="html" />
               JavaScript
             </Li>
             <Li>
-              <Img src="/src/images/atom.png" alt="html" />
+              <Img src="/public/images/atom.png" alt="html" />
               React
             </Li>
           </Ul>
