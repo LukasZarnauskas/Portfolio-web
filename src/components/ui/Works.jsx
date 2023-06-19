@@ -71,7 +71,7 @@ const A = styled.a`
 `;
 function Works() {
   return (
-    <StyledWorks>
+    <StyledWorks id="works">
       <H2>My Works</H2>
       <Container>
         <Div>

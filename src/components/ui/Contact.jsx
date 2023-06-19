@@ -52,7 +52,7 @@ const P = styled.p`
 
 function Contact() {
   return (
-    <StyledCotact>
+    <StyledCotact id="contact">
       <H2>Contact</H2>
       <H3>Contact info</H3>
       <Div>

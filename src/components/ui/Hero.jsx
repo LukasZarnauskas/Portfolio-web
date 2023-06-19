@@ -32,7 +32,7 @@ const P = styled.p`
   font-weight: 700;
   margin-top: 5rem;
 `;
-const Button = styled.button`
+const Button = styled.a`
   background-color: initial;
   border: 3px solid whitesmoke;
   border-radius: 0;
@@ -70,7 +70,7 @@ const Span = styled.span`
 
 function Hero() {
   return (
-    <StyledHero>
+    <StyledHero id="hero">
       <Paragraph>
         <H1>Hi, I'am Lukas</H1>
         <H2>Frontend Developer</H2>
@@ -79,7 +79,7 @@ function Hero() {
           challanges and opportunities to grow as a developer. If you looking
           for a Frontend Developer, <Span>let's work together.</Span>
         </P>
-        <Button> CONTACT</Button>
+        <Button href="#contact"> CONTACT</Button>
       </Paragraph>
       <Img src="./src/images/1667566343397.jpg" alt="Lukas" />
     </StyledHero>

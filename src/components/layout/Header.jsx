@@ -32,11 +32,7 @@ const Logo = styled.a`
   font-size: 2rem;
   font-weight: 700;
   transition: 0.5s;
-  ${(props) =>
-    props.open &&
-    `
-    display: none;
-  `}
+
   &:hover {
     background-color: #fff;
     color: #000;
@@ -47,6 +43,13 @@ const Logo = styled.a`
     background-color: #000;
     color: #fff;
     transition: 0.5s;
+  }
+  @media only screen and (max-width: 768px) {
+    ${(props) =>
+      props.open &&
+      `
+    display: none;
+  `}
   }
 `;
 
@@ -98,16 +101,16 @@ function Header() {
           className={!open ? "fa-solid fa-bars fa-2xl" : "fa-solid fa-x fa-2xl"}
           onClick={() => setOpen(!open)}
         />
-        <NavItem open={open} href="/">
+        <NavItem open={open} href="#hero">
           Home
         </NavItem>
-        <NavItem open={open} href="/">
+        <NavItem open={open} href="#about">
           About
         </NavItem>
-        <NavItem open={open} href="/">
+        <NavItem open={open} href="#works">
           Works
         </NavItem>
-        <NavItem open={open} href="/">
+        <NavItem open={open} href="#contact">
           Contact
         </NavItem>
       </Nav>

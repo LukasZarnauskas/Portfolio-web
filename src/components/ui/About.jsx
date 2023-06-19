@@ -23,7 +23,7 @@ const P = styled.p`
   text-align: center;
   font-weight: 700;
 `;
-const Button = styled.button`
+const Button = styled.a`
   background-color: initial;
   border: 3px solid whitesmoke;
   border-radius: 0;
@@ -106,7 +106,7 @@ const Year = styled.p`
 `;
 function About() {
   return (
-    <StyledAbout>
+    <StyledAbout id="about">
       <AboutH2>ABOUT MY</AboutH2>
       <P>
         I have gained experience in the field of health care by working as
@@ -205,7 +205,7 @@ function About() {
       </DivHist>
       <DivWorks>
         <H3>You can see my works here:</H3>
-        <Button>WORKS</Button>
+        <Button href="#works">WORKS</Button>
       </DivWorks>
     </StyledAbout>
   );
