@@ -93,7 +93,7 @@ function Header() {
   console.log(open);
   return (
     <StyledHeader open={open}>
-      <Logo open={open} href="/">
+      <Logo open={open} href="#hero">
         <LogoFirst>LUKAS</LogoFirst> PORTFOLIO
       </Logo>
       <Nav>
