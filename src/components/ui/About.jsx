@@ -5,6 +5,12 @@ const StyledAbout = styled.section`
   flex-direction: column;
   padding: 10rem 20rem;
   background-color: #39b54a;
+  @media only screen and (max-width: 1024px) {
+    padding: 10rem 10rem;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 5rem;
+  }
 `;
 const AboutH2 = styled.h2`
   font-size: 5rem;
@@ -37,20 +43,31 @@ const Div = styled.div`
   margin-top: 5rem;
   border-right: 3px solid whitesmoke;
   padding-right: 5rem;
+  @media only screen and (max-width: 768px) {
+    border-right: none;
+  }
 `;
 const DivW = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
   margin-left: 5rem;
+  @media only screen and (max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 const DivHist = styled.div`
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const DivWorks = styled.div`
   display: flex;
+
   gap: 5rem;
+  align-items: center;
 `;
 const H3 = styled.h3`
   font-size: 3.5rem;

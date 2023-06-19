@@ -4,15 +4,15 @@ const StyledHero = styled.section`
   display: flex;
   background: url("/src/images/hero.jpg") no-repeat;
   background-size: cover;
-  padding: 10rem 0;
-  height: 100vh;
+  padding: 10rem 20rem;
+  @media only screen and (max-width: 1024px) {
+    padding: 10rem 10rem;
+  }
 `;
 const Paragraph = styled.div`
   display: flex;
   flex-direction: column;
   width: 60rem;
-  padding-top: 10rem;
-  margin-left: 20rem;
 `;
 const H1 = styled.h1`
   color: #39b54a;
@@ -50,9 +50,16 @@ const Img = styled.img`
   width: 40rem;
   height: 40rem;
   border-radius: 50%;
-  margin-right: 20rem;
+
   margin-left: 5rem;
   filter: grayscale(80%);
+  @media only screen and (max-width: 1024px) {
+    width: 30rem;
+    height: 30rem;
+  }
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const Span = styled.span`

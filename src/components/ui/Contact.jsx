@@ -3,11 +3,24 @@ import styled from "styled-components";
 const StyledCotact = styled.section`
   background-color: #39b54a;
   padding: 10rem 20rem;
+  @media only screen and (max-width: 1024px) {
+    padding: 10rem 10rem;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 5rem;
+  }
 `;
 const Div = styled.div`
   display: flex;
   justify-content: space-between;
   color: white;
+  @media only screen and (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  @media only screen and (max-width: 768px) {
+    gap: 2rem;
+  }
 `;
 const H2 = styled.h2`
   font-size: 5rem;

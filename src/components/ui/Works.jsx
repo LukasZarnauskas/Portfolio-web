@@ -4,6 +4,12 @@ import styled from "styled-components";
 const StyledWorks = styled.section`
   background-color: #1a1a1a;
   padding: 10rem 20rem;
+  @media only screen and (max-width: 1024px) {
+    padding: 10rem 10rem;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 5rem 5rem;
+  }
 `;
 const H2 = styled.h2`
   font-size: 5rem;
@@ -27,11 +33,19 @@ const Div = styled.div`
     background-color: #484848;
     transition: 0.3s;
   }
+  @media only screen and (max-width: 768px) {
+  }
 `;
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
+  @media only screen and (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 const Img = styled.img`
   margin-top: 1rem;
