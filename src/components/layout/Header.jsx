@@ -7,11 +7,19 @@ const StyledHeader = styled.header`
   padding: 2rem 3rem;
   color: #fff;
   background-color: #000;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   i {
     display: none;
   }
 
   @media only screen and (max-width: 768px) {
+    ${(props) =>
+      props.open &&
+      `
+    justify-content: center;
+  `}
     i {
       display: block;
       :hover {
@@ -24,6 +32,11 @@ const Logo = styled.a`
   font-size: 2rem;
   font-weight: 700;
   transition: 0.5s;
+  ${(props) =>
+    props.open &&
+    `
+    display: none;
+  `}
   &:hover {
     background-color: #fff;
     color: #000;
@@ -46,6 +59,12 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 const NavItem = styled.a`
   font-size: 1.8rem;
@@ -59,26 +78,39 @@ const NavItem = styled.a`
   }
   @media only screen and (max-width: 768px) {
     display: none;
+    ${(props) =>
+      props.open &&
+      `
+    display: block;
+  `}
   }
 `;
 function Header() {
   const [open, setOpen] = useState(false);
   console.log(open);
   return (
-    <StyledHeader>
-      <Logo href="/">
+    <StyledHeader open={open}>
+      <Logo open={open} href="/">
         <LogoFirst>LUKAS</LogoFirst> PORTFOLIO
       </Logo>
       <Nav>
-        <NavItem href="/">Home</NavItem>
-        <NavItem href="/">About</NavItem>
-        <NavItem href="/">Works</NavItem>
-        <NavItem href="/">Contact</NavItem>
+        <i
+          className={!open ? "fa-solid fa-bars fa-2xl" : "fa-solid fa-x fa-2xl"}
+          onClick={() => setOpen(!open)}
+        />
+        <NavItem open={open} href="/">
+          Home
+        </NavItem>
+        <NavItem open={open} href="/">
+          About
+        </NavItem>
+        <NavItem open={open} href="/">
+          Works
+        </NavItem>
+        <NavItem open={open} href="/">
+          Contact
+        </NavItem>
       </Nav>
-      <i
-        className={!open ? "fa-solid fa-bars fa-2xl" : "fa-solid fa-x fa-2xl"}
-        onClick={() => setOpen(!open)}
-      />
     </StyledHeader>
   );
 }
