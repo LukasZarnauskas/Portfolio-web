@@ -2,7 +2,7 @@
 import styled from "styled-components";
 const StyledHero = styled.section`
   display: flex;
-  background: url("./public/images/hero.jpg") no-repeat;
+  background: url("/images/hero.jpg") no-repeat;
   background-size: cover;
   padding: 10rem 20rem;
   min-height: 100vh;
