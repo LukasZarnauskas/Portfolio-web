@@ -75,7 +75,7 @@ function Hero() {
   return (
     <StyledHero id="hero">
       <Paragraph>
-        <H1>Hi, I'am Lukas</H1>
+        <H1>Hi, I'm Lukas</H1>
         <H2>Frontend Developer</H2>
         <P>
           I'm new Frontend Developer based in Kaunas, Lithuania. I looking for a
