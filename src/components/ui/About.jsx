@@ -107,13 +107,13 @@ const Year = styled.p`
 function About() {
   return (
     <StyledAbout id="about">
-      <AboutH2>ABOUT MY</AboutH2>
+      <AboutH2>ABOUT ME</AboutH2>
       <P>
-        I have gained experience in the field of health care by working as
-        physiotherapist. The time has come when I decided to change mine
-        profession. I decided to pursue a front-end programmer career. That's
-        why I'm currently looking for a job where I can develop as a frontend
-        developer.
+        I have gained experience in the field of health care by working as a
+        physiotherapist. The time has come when I decided to change my
+        profession. Decided, that i want to try myself in a new field of work
+        and pursue a career of a front-end developer. I'm currently looking for
+        a job where I can develop as a front-end developer.
       </P>
       <DivHist>
         <Div>

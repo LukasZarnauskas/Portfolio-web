@@ -53,7 +53,7 @@ const P = styled.p`
 function Contact() {
   return (
     <StyledCotact id="contact">
-      <H2>Contact</H2>
+      <H2>Contacts</H2>
       <H3>Contact info</H3>
       <Div>
         <div>

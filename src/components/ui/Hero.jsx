@@ -78,11 +78,11 @@ function Hero() {
         <H1>Hi, I'm Lukas</H1>
         <H2>Frontend Developer</H2>
         <P>
-          I'm new Frontend Developer based in Kaunas, Lithuania. I looking for a
-          challenges and opportunities to grow as a developer. If you looking
-          for a Frontend Developer, <Span>let's work together.</Span>
+          I'm a new frontend developer based in Kaunas, Lithuania. I am looking
+          for a challenges and opportunities to grow as a developer. If you are
+          looking for a frontend developer, <Span>let's work together.</Span>
         </P>
-        <Button href="#contact"> CONTACT</Button>
+        <Button href="#contact"> CONTACTS</Button>
       </Paragraph>
       <Img src="/images/1667566343397.jpg" alt="Lukas" />
     </StyledHero>
