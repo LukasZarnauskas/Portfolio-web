@@ -77,7 +77,7 @@ function Works() {
         <Div>
           <H3>CSS responsive design</H3>
           <P>It's html and css project with responsive design </P>
-          <Img src="/public/images/html-css-proj.png" alt="" />
+          <Img src="/images/html-css-proj.png" alt="" />
           <div>
             <PSite>
               Project github repository:
@@ -102,7 +102,7 @@ function Works() {
         <Div>
           <H3>TIC-TAC-TOE game</H3>
           <P>Game made with react</P>
-          <Img src="/public/images/Tic-tac.png" alt="Tic-Tac" />
+          <Img src="/images/Tic-tac.png" alt="Tic-Tac" />
           <div>
             <PSite>
               Project github repository:
@@ -130,7 +130,7 @@ function Works() {
             Web with registration and login function made with react and
             firebase
           </P>
-          <Img src="/public/images/shops-web.png" alt="Shops-web" />
+          <Img src="/images/shops-web.png" alt="Shops-web" />
           <div>
             <PSite>
               Project github repository:
@@ -155,7 +155,7 @@ function Works() {
         <Div>
           <H3>Portfolio page</H3>
           <P>My portfolio page made with react and styled components.</P>
-          <Img src="/src/images/shops-web.png" alt="Shops-web" />
+          <Img src="/images/shops-web.png" alt="Shops-web" />
           <div>
             <PSite>
               Project github repository:
