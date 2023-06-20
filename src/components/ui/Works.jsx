@@ -155,7 +155,7 @@ function Works() {
         <Div>
           <H3>Portfolio page</H3>
           <P>My portfolio page made with react and styled components.</P>
-          <Img src="/images/shops-web.png" alt="Shops-web" />
+          <Img src="/images/Portfolio page.png" alt="Portolio-web" />
           <div>
             <PSite>
               Project github repository:
