@@ -9,6 +9,9 @@ const StyledHero = styled.section`
   @media only screen and (max-width: 1024px) {
     padding: 15rem 10rem;
   }
+  @media only screen and (max-width: 768px) {
+    padding: 10rem 5rem;
+  }
 `;
 const Paragraph = styled.div`
   display: flex;
