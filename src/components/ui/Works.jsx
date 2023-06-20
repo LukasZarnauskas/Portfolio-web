@@ -89,7 +89,7 @@ function Works() {
               </A>
             </PSite>
             <PSite>
-              You can see it in my website:
+              You can see it in me website:
               <A
                 href="https://lukas-zarnauskas-responsive-design.netlify.app/"
                 target="_blank"
@@ -114,7 +114,7 @@ function Works() {
               </A>
             </PSite>
             <PSite>
-              You can see it in my website:
+              You can see it in me website:
               <A
                 href="https://lukas-zarnauskas-tic-tac-toe.netlify.app/"
                 target="_blank"
@@ -125,9 +125,9 @@ function Works() {
           </div>
         </Div>
         <Div>
-          <H3>Shops-web</H3>
+          <H3>Shops-website</H3>
           <P>
-            Web with registration and login function made with react and
+            Website with registration and login function made with react and
             firebase
           </P>
           <Img src="/images/shops-web.png" alt="Shops-web" />
@@ -142,7 +142,7 @@ function Works() {
               </A>
             </PSite>
             <PSite>
-              You can see it in my website:
+              You can see it in me website:
               <A
                 href="https://web-of-lukas-zarnauskas.netlify.app/"
                 target="_blank"
@@ -167,7 +167,7 @@ function Works() {
               </A>
             </PSite>
             <PSite>
-              You can see it in my website:
+              You can see it in me website:
               <A
                 href="https://lukas-zarnauskas-portfolio-web.netlify.app/"
                 target="_blank"

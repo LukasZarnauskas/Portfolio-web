@@ -57,15 +57,15 @@ function Contact() {
       <H3>Contact info</H3>
       <Div>
         <div>
-          <H4>Call My At</H4>
+          <H4>Call Me At</H4>
           <P>+37060802922</P>
         </div>
         <div>
-          <H4>Email My At</H4>
+          <H4>Email Me At</H4>
           <P>zarnauskas97@gmail.com</P>
         </div>
         <div>
-          <H4>Message My At</H4>
+          <H4>Message Me At</H4>
           <A href="https://m.me/100001239875605/" target="_blank">
             <i className="fa-brands fa-facebook-messenger"></i> Messenger
           </A>
@@ -75,7 +75,7 @@ function Contact() {
           </A>
         </div>
         <div>
-          <H4>All my works at</H4>
+          <H4>All Me Works at</H4>
           <A href="https://github.com/LukasZarnauskas" target="_blank">
             <i className="fa-brands fa-github"></i> Github
           </A>
