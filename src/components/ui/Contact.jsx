@@ -75,7 +75,7 @@ function Contact() {
           </A>
         </div>
         <div>
-          <H4>All Me Works at</H4>
+          <H4>All My Works At</H4>
           <A href="https://github.com/LukasZarnauskas" target="_blank">
             <i className="fa-brands fa-github"></i> Github
           </A>
