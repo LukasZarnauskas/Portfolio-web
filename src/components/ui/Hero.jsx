@@ -79,7 +79,7 @@ function Hero() {
         <H2>Frontend Developer</H2>
         <P>
           I'm new Frontend Developer based in Kaunas, Lithuania. I looking for a
-          challanges and opportunities to grow as a developer. If you looking
+          challenges and opportunities to grow as a developer. If you looking
           for a Frontend Developer, <Span>let's work together.</Span>
         </P>
         <Button href="#contact"> CONTACT</Button>
