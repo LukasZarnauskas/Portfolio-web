@@ -4,7 +4,7 @@ const StyledHero = styled.section`
   display: flex;
   background: url("/images/hero.jpg") no-repeat;
   background-size: cover;
-  padding: 10rem 20rem;
+  padding: 15rem 20rem;
   min-height: 100vh;
   @media only screen and (max-width: 1024px) {
     padding: 10rem 10rem;
