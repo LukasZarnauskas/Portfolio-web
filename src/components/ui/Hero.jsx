@@ -81,7 +81,7 @@ function Hero() {
         </P>
         <Button href="#contact"> CONTACT</Button>
       </Paragraph>
-      <Img src="./src/images/1667566343397.jpg" alt="Lukas" />
+      <Img src="/images/1667566343397.jpg" alt="Lukas" />
     </StyledHero>
   );
 }
