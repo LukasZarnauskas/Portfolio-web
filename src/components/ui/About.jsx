@@ -157,7 +157,7 @@ function About() {
               <LiEd>
                 <H4>Frontend developer</H4>
                 <PEd>CodeAcademy</PEd>
-                <Year>560 hours</Year>
+                <Year>2023 (560h)</Year>
               </LiEd>
             </div>
           </Ul>
