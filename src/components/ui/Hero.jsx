@@ -7,7 +7,7 @@ const StyledHero = styled.section`
   padding: 15rem 20rem;
   min-height: 100vh;
   @media only screen and (max-width: 1024px) {
-    padding: 10rem 10rem;
+    padding: 15rem 10rem;
   }
 `;
 const Paragraph = styled.div`
