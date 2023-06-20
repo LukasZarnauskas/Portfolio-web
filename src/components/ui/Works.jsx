@@ -169,7 +169,7 @@ function Works() {
             <PSite>
               You can see it in my website:
               <A
-                href="https://web-of-lukas-zarnauskas.netlify.app/"
+                href="https://lukas-zarnauskas-portfolio-web.netlify.app/"
                 target="_blank"
               >
                 Web
